@@ -50,7 +50,6 @@ img {
     display: flex;
     justify-content: center;
     margin: auto;
-    margin-top: 3.5rem;
     align-items: center;
-    opacity: 0.09;
+    opacity: 30%;
 }
