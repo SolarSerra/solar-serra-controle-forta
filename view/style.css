@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-title: 'Source Sans Pro', sans-serif;
+    --font-text: 'Barlow', sans-serif;
+    --color: #1159a0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    color: var(--color);
+    font-family: var(--font-title);
+    font-weight: 900;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-family: var(--font-text);
+    color: var(--color);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+img {
+    display: flex;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#opac_img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3.5rem;
+    align-items: center;
+    opacity: 0.09;
+}
