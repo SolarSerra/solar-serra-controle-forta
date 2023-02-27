@@ -75,16 +75,17 @@ img {
   }
   
   #widget-formulario {
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #1159a0;
   }
   
 #fechar-formulario {
     display: flex;
     margin-left: 90%;
-    margin-top: -10%;
-    width: 20px;
+    margin-top: -9%;
+    width: 23px;
 }
