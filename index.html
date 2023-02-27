@@ -15,7 +15,11 @@
             <img src="./assets/solar_serra_header_logo.png" width="140px" alt="Solar Serra Logo">
         </figure>
         <h1>Controle de Frota</h1>
-       <button class="popup">Inicio da Rota</button>
+       <button id="exibir-formulario">Inicio da Rota</button>
+       <div id="widget-formulario" style="display: none;">
+        <button id="fechar-formulario">&times;</button>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLfy-ZpoLL9F3jIeBflrjhoyq15EBhBAL3nO6W6vBm5gtlJg/viewform?embedded=true" width="400" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+      </div>
         <a href="https://forms.gle/JE8XRwdnttKV7dhM9">Fim da Rota</a>
         <a href="https://forms.gle/D7QuyrWWusx81FJ66">Abastecimentos de Veículos</a>
         <div id="opac_img">
@@ -26,4 +30,5 @@
     </main>
 </body>
 <script src="./scripts/pup-up-form.js"></script>
+<script src="./scripts/fechar-form.js"></script>
 </html>
