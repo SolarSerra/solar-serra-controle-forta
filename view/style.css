@@ -44,7 +44,7 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-    margin-left: 22%;
+    margin-left: 17%;
     font-family: var(--font-text);
     color: var(--color);
     font-size: 20px;
@@ -72,6 +72,7 @@ img {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+    width: 170px;
   }
   
   #widget-formulario {
@@ -84,6 +85,32 @@ img {
   }
   
 #fechar-formulario {
+    display: flex;
+    margin-left: 90%;
+    margin-top: -9%;
+    width: 23px;
+}
+
+#exibir-formulario-fim {
+    display: flex;
+    background-color: var(--color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 170px;
+  }
+  
+  #widget-formulario-fim {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #1159a0;
+  }
+  
+#fechar-formulario-fim {
     display: flex;
     margin-left: 90%;
     margin-top: -9%;
